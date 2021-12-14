@@ -5,7 +5,7 @@ import Selectt  from './Selectt';
 import Alert from "./Alert";
 import Menu from "./Menu";
 import Fab from "./Fab";
-
+import Spinner from "./Spinner";
 
   
   
@@ -28,6 +28,7 @@ export default () => {
         <Alert />
         <Menu />
         <Fab />
+        <Spinner />
       </Center>
     </NativeBaseProvider>
   )
